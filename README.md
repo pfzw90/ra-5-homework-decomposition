@@ -1,3 +1,9 @@
+# Окончательный вид 
+
+![Окончательный вид](https://puu.sh/I2omy/c027b1efaf.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
