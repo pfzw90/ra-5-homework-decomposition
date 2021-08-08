@@ -1,0 +1,38 @@
+.SearchPanel {
+    padding: 10px 0;
+
+    background-color: coral;
+}
+
+.SearchPanel-Links a {
+    margin: 10px;
+}
+
+.SearchPanel-SearchForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchForm-Input, .SearchForm-Button  {
+    height:40px;
+    box-sizing: border-box;
+    
+    padding:10px;
+}
+
+.SearchForm-Input {
+    width: 50%;
+    margin: 0 10px;
+}
+
+
+.SearchPanel-Logo {
+    width:60px;
+    height: 60px;
+}
+
+.SearchPanel-BottomText-Link  {
+    text-decoration: underline;
+}

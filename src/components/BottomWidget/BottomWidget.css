@@ -1,0 +1,20 @@
+.BottomWidget {
+    width: 32%;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    padding:20px;
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(255, 212, 196);
+
+}
+
+.BottomWidget > .BasicHeaderLink {
+    margin: 10px 0 20px;
+}
+
+.BottomWidget > .BasicHeaderLink:hover {
+    color:brown;
+}

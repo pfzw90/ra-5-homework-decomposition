@@ -1,0 +1,37 @@
+.BottomWeatherWidget {
+    width:100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.BottomWeatherWidget > .CurrentWeather {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right:10px;
+}
+.CurrentWeather > .CurrentWeather-Icon {
+    height:60px;
+
+}
+.CurrentWeather > .CurrentWeather-Text {
+    font-size: 40px;
+}
+
+.BottomWeatherWidget > .FutureWeather  {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-left: 10px;
+
+    border-left: 1px solid rgb(136, 114, 105);
+}

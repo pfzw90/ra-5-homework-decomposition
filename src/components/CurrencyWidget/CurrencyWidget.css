@@ -1,0 +1,19 @@
+.CurrencyWidget {
+    margin: 10px;
+}
+
+.CurrencyWidget-Item {
+    margin: 0 10px;
+}
+
+.CurrencyWidget-Item > span {
+    margin: 0 2px;
+}
+
+.CurrencyWidget-CurrencyName {
+    font-weight: bold;
+}
+
+.CurrencyWidget-CurrencyChange {
+    color: rgb(126, 126, 126);
+}

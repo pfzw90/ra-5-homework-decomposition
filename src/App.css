@@ -1,5 +1,12 @@
+a {
+  text-decoration: none;
+  color: #282c34;
+}
+
 .App {
+  position: relative;
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +42,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.BlockWithWidgets {
+  position: relative;
+  width:100%;
+  padding:20px;
+  height: 600px;
+  display:flex;
+  flex-flow: column wrap;
+
+  align-items:center;
+  justify-content: flex-start;
+
+  box-sizing: border-box;
 }
